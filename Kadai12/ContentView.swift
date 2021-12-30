@@ -21,9 +21,8 @@ struct ContentView: View {
             }
             HStack {
                 Text("税込金額")
-                Text("\(answer ?? "0")")
+                Text("\(answer ?? "0") 円")
                     .padding(/*@START_MENU_TOKEN@*/.leading, 100.00/*@END_MENU_TOKEN@*/)
-                Text("円")
             }
         }
     }
